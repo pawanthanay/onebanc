@@ -1,0 +1,167 @@
+@media (min-width:300px) {
+    body{
+        overflow: scroll;
+    }
+  
+    #hero
+    {
+        width:100%;
+        height:100vh;
+        background-image:url(../img/sdown.png);
+/*        background-position:center;*/
+        background-size:cover;
+        background-repeat:no-repeat;
+       
+        
+    }
+    .title{
+    font-size: 2em;
+    line-height: 1em;
+    position: relative;
+    color: white;
+    top: 1.5%;
+    left:3%;
+    }
+    .para{
+        font-size: 0.4em;
+        line-height: 1em;
+        position: relative;
+        color: white;
+        
+        
+    }
+    
+    .logo
+    {
+        max-width: 330px;
+        width: 85%;
+        margin-left: 3%;
+        
+    }
+     .para2{
+        font-size: 0.4em;
+        line-height: 1em;
+        position:relative;
+        color: white;
+    }
+    #email
+    {
+        width: 260px;
+        height: 30px;
+        font-size: 0.6em;
+        
+        
+    }
+    .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #00d9e4 !important;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+}
+@media (min-width:992px) and (max-width:1500px)
+{
+    #hero
+    {
+        background-image:url(../img/nologo.png);
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        width:100%;
+        height:100vh
+    }
+    
+    .title{
+    font-size: 3em;
+    line-height: 1em;
+    position: relative;
+    color: white;
+    top: 2.5%;
+    left: 3%;
+    }
+    .para{
+        font-size: 0.4em;
+        line-height: 1em;
+        position: relative;
+        color: white;
+        
+        
+    }
+    .para2{
+        font-size: 0.4em;
+        line-height: 1em;
+        position:relative;
+        color: white;
+    }
+    .logo
+    {
+        max-width: 330px;
+        width: 85%;
+        margin-left: 3%;
+    }
+    #email
+    {
+        width: 300px;
+        height: 30px;
+        font-size: 0.8em;
+        
+        
+    }
+   .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #00d9e4 !important;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+ 
+    
+}
+@media (min-width:768px) and (max-width:992px)
+{
+    #hero{
+        background-image:url(../img/Web%201280%20%E2%80%93%201.png);
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        width:100%;height:100vh
+    }
+    .title{
+    font-size: 3em;
+    line-height: 1em;
+    position: relative;
+    color: white;
+    top: 2.5%;
+    left: 3%;
+    }
+    .para{
+        font-size: 0.31em;
+        line-height: 1em;
+        position: relative;
+        color: white;
+        
+        
+    }
+     .logo
+    {
+        max-width: 330px;
+        width: 85%;
+        margin-left: 3%;
+    }
+     .para2{
+        font-size: 0.4em;
+        line-height: 1em;
+        position:relative;
+        color: white;
+    }
+    #email
+    {
+        width: 300px;
+        height: 30px;
+        font-size: 0.3em;
+        
+        
+    }
+    .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #00d9e4 !important;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+}
